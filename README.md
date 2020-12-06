@@ -1,1 +1,1 @@
-# Restoran_VeriTaban-
+# Restoran_VeriTabanı
