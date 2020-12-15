@@ -1,4 +1,6 @@
 
+---Tabloların  ve yabancıl anahtarın(foreing key) oluşturulması
+
 create table Musteri(
 	musteri_id serial primary key not null,
 	ad varchar(20) not null ,
