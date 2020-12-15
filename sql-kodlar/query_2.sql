@@ -110,3 +110,18 @@ insert into siparisdurum values (default,'Teslim edildi');
 select * from siparisdurum;
 ------------------------------------------------------------------------------
 
+insert into musteri values (default , 'Can' , 'Can' , 0541,'hotmail1');
+insert into musteri values (default , 'Veli' , 'Can' , 0542,'hotmail2');
+insert into musteri values (default , 'Selim' , 'Cam' , 0543,'hotmail3');
+insert into musteri values (default , 'Melis' , 'Van' , 0544,'hotmail4');
+insert into musteri values (default , 'Elif' , 'Vali' , 0545,'hotmail5');
+insert into musteri values (default , 'Aslı' , 'Pek' , 0546,'hotmail6');
+insert into musteri values (default , 'Mahmut' , 'Sel' , 0547,'hotmail7');
+insert into musteri values (default , 'Çakır' , 'Sakız' , 0548,'hotmail8');
+insert into musteri values (default , 'Polat' , 'Yeşil' , 0549,'hotmail9');
+insert into musteri values (default , 'Memoli' , 'Kara' , 0540,'hotmail10');
+
+
+select * from musteri;
+------------------------------------------------------------------------------
+
