@@ -1,3 +1,4 @@
+--- tablolara veri eklenme işlemi
 
 insert into adres  values(default,'istanbul','fatih','bakır','115',1); 
 insert into adres  values(default,'Adana','çukurova','sarı','215',2); 
