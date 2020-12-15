@@ -1,3 +1,3 @@
-# Entity Relationship Diagram
+# Entity Relationship Diagram(Varlık-ilişki diyagramı)
 
-* Diyagramı [umlet](https://www.umlet.com/) kullanılarak çizilmiştir. 
+* Diyagram [umlet](https://www.umlet.com/) kullanılarak çizilmiştir. 
