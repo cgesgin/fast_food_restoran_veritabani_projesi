@@ -96,6 +96,8 @@ alter table personel add sube_id int references sube(sube_id);
 
 alter table siparis add personel_id int  references personel(personel_id);
 
+alter table sube add adres_id int references adres(adres_id);
+
 create table Siparis_Sube(
 	id serial primary key not null,
 	siparis_id int references siparis(siparis_id),
