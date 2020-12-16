@@ -126,3 +126,104 @@ insert into musteri values (default , 'Memoli' , 'Kara' , 0540,'hotmail10');
 select * from musteri;
 ------------------------------------------------------------------------------
 
+insert into ürün_kategori values(default,2,9);
+insert into ürün_kategori values(default,3,9);
+insert into ürün_kategori values(default,4,9);
+insert into ürün_kategori values(default,9,9);
+insert into ürün_kategori values(default,10,9);
+insert into ürün_kategori values(default,5,8);
+
+select * from ürün_kategori;
+------------------------------------------------------------------------------
+
+insert into sube_menü values (default,1,1);
+insert into sube_menü values (default,2,1);
+insert into sube_menü values (default,3,1);
+insert into sube_menü values (default,4,1);
+insert into sube_menü values (default,3,2);
+insert into sube_menü values (default,5,2);
+insert into sube_menü values (default,1,4);
+insert into sube_menü values (default,5,4);
+insert into sube_menü values (default,2,4);
+
+select * from sube_menü;
+------------------------------------------------------------------------------
+
+insert into siparis values(default,'Hamburger','website','15.12.2020');
+insert into siparis values(default,'Menü1','sube','16.12.2020');
+insert into siparis values(default,'menü2','sube','17.12.2020');
+insert into siparis values(default,'menü3','website','18.12.2020');
+insert into siparis values(default,'menü4','sube','22.12.2020');
+insert into siparis values(default,'menü5','sube','19.12.2020');
+insert into siparis values(default,'menü6','website','31.12.2020');
+
+select * from siparis;
+------------------------------------------------------------------------------
+
+insert into fatura values (default,'12.12.2020',50,'kart',1,1);
+insert into fatura values (default,'12.12.2020',50,'nakit',1,1);
+insert into fatura values (default,'12.12.2020',50,'nakit',1,1);
+insert into fatura values (default,'12.12.2020',50,'nakit',1,1);
+insert into fatura values (default,'12.12.2020',50,'borç',1,1);
+insert into fatura values (default,'12.12.2020',50,'borç',1,1);
+insert into fatura values (default,'12.12.2020',50,'yapılmadı',1,1);
+insert into fatura values (default,'12.12.2020',50,'yapılmadı',1,1);
+insert into fatura values (default,'12.12.2020',50,'yapılmadı',1,1);
+insert into fatura values (default,'12.12.2020',50,'yapılmadı',1,1);
+
+select * from fatura;
+------------------------------------------------------------------------------
+
+insert into menü_kategori values(default,1,1);
+insert into menü_kategori values(default,1,1);
+insert into menü_kategori values(default,2,2);
+insert into menü_kategori values(default,2,2);
+insert into menü_kategori values(default,2,2);
+insert into menü_kategori values(default,1,3);
+insert into menü_kategori values(default,1,3);
+insert into menü_kategori values(default,5,3);
+insert into menü_kategori values(default,6,4);
+insert into menü_kategori values(default,1,5);
+
+select * from menü_kategori;
+------------------------------------------------------------------------------
+
+insert into menü_ürün  values(default,1,1);
+insert into menü_ürün  values(default,1,2);
+insert into menü_ürün  values(default,1,3);
+insert into menü_ürün  values(default,1,4);
+insert into menü_ürün  values(default,1,5);
+insert into menü_ürün  values(default,1,6);
+insert into menü_ürün  values(default,1,7);
+insert into menü_ürün  values(default,1,8);
+insert into menü_ürün  values(default,1,9);
+insert into menü_ürün  values(default,1,10);
+
+select * from menü_ürün;
+------------------------------------------------------------------------------
+insert into siparis_menu values(default,1,1);
+insert into siparis_menu values(default,1,2);
+insert into siparis_menu values(default,3,2);
+insert into siparis_menu values(default,4,2);
+insert into siparis_menu values(default,1,3);
+insert into siparis_menu values(default,2,2);
+insert into siparis_menu values(default,2,3);
+insert into siparis_menu values(default,6,4);
+insert into siparis_menu values(default,7,4);
+insert into siparis_menu values(default,8,3);
+
+select * from siparis_menu;
+------------------------------------------------------------------------------
+insert into siparis_sube values(default,2,1);
+insert into siparis_sube values(default,2,1);
+insert into siparis_sube values(default,1,1);
+insert into siparis_sube values(default,3,1);
+insert into siparis_sube values(default,4,1);
+insert into siparis_sube values(default,5,1);
+insert into siparis_sube values(default,6,1);
+insert into siparis_sube values(default,7,1);
+insert into siparis_sube values(default,3,1);
+insert into siparis_sube values(default,3,1);
+
+select * from siparis_sube;
+------------------------------------------------------------------------------
