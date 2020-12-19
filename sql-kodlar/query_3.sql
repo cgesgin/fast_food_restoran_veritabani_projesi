@@ -24,28 +24,3 @@ ALTER TABLE personel ALTER COLUMN cinsiyet  type char(5);
 
 ALTER TABLE personel DROP COLUMN cinsiyet;
 
---query_1 dosyasında yabancıl anahtarlar tanımlandı.
-
---ALTER TABLE fatura ADD ödeme_türü varchar(40) not null;
-
---alter table fatura add personel_id int references personel(personel_id);
-
---alter table fatura add musteri_id int references musteri(musteri_id);
-
---alter table siparis add fatura_id int references fatura(fatura_id);
-
---alter table musteri add adres_id int references adres(adres_id);
-
---alter table siparis add musteri_id int references musteri(musteri_id);
-
---alter table siparis add siparis_durum_id int references siparisdurum (siparis_durum_id);
-
---alter table personel add unvan_id int references unvan (unvan_id);
-
---alter table personel add adres_id int references adres (adres_id);
-
---alter table personel add sube_id int references sube(sube_id);
-
---alter table siparis add personel_id int  references personel(personel_id);
-
---alter table sube add adres_id int references adres(adres_id);
