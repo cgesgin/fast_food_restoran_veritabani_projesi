@@ -24,3 +24,12 @@ ALTER TABLE personel ALTER COLUMN cinsiyet  type char(5);
 
 ALTER TABLE personel DROP COLUMN cinsiyet;
 
+select ad , soyad , maas from personel  where ad='Ahmet' or ad Like  '%a%' and maas>1500;
+
+select ad , soyad , maas from personel  where ad='Ahmet' or ad Like  '%a%' and tc_no between 120 and 300;
+
+ALTER TABLE personel ADD cinsiyet varchar(20);
+
+update personel set cinsiyet='adam' where personel_id>0;
+
+update personel set cinsiyet='erkek' where cinsiyet ='adam';
