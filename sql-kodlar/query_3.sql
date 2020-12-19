@@ -24,6 +24,8 @@ ALTER TABLE personel ALTER COLUMN cinsiyet  type char(5);
 
 ALTER TABLE personel DROP COLUMN cinsiyet;
 
+--query_1 dosyasında yabancıl anahtarlar tanımlandı.
+
 --ALTER TABLE fatura ADD ödeme_türü varchar(40) not null;
 
 --alter table fatura add personel_id int references personel(personel_id);
