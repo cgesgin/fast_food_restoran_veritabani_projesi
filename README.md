@@ -44,7 +44,38 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 #### Veritabanı Yapısı
 
-Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır
+Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır.
+
+| Tablolar      | İşlevi        |
+| ------------- | ------------- |
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+
+Tablolar	
+				
+				
+				
+				
+				
+
+Fatura	Müşterinin ödeyeceği tutar bilgilerini içerir.
+Kategori	Ürünlerin türleri bulundugu bilgileri içerir.
+Menü	Menü bilgilerini içerir.
+Personel 	Çalısanların Bilgilerini içerir.
+Müşteri	Müsterinin bilgileri bulunur.
+Sipariş	Müşterinin aldıgı ürün burada turulur
+Adres	Personellerin ,müsterilerin ve subelerin bilgilerini içeren varlıktır
+Şube	Fast food restoranları birer zincir olduğundan bu kısımda Subenin bilgileri yer alıyor
+Personel Türü
+
+
+
+
+	Fast food restoranlarında birçok personel türü vardır . Bunların yaptığı işlerin bölündirilmesi işlevi görür
+Sipariş_Durum	Verilen siparişin hangi aşamada olduğunu gösterir.
+ Ürün	Menülerin içeriğinde bulunan ürünleri içeriyor
+
 
 #### E-R Diyagram
 
