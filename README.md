@@ -44,7 +44,7 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 
 
-#### Veritabanı Yapısı
+### Veritabanı Yapısı
 
 ---
 
@@ -65,7 +65,7 @@ Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Mü�
 |Ürün	|Menülerin içeriğinde bulunan ürünleri içeriyor
 
 
-#### E-R Diyagram
+### E-R Diyagram
 
 ---
 
