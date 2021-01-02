@@ -1,6 +1,6 @@
 # Entity Relationship Diagram(Varlık-ilişki diyagramı)
 
-* '' E-R Diyagram.uxf '' dosyasını indirdikten sonra [umlet](https://www.umlet.com/) ile açabilirsiniz. 
+* **E-R Diyagram.uxf** dosyasını indirdikten sonra [umlet](https://www.umlet.com/) ile açabilirsiniz. 
 
 ---
 
