@@ -48,7 +48,7 @@ Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Mü�
 
 #### E-R Diyagram
 
-[](https://github.com/cgesgin/fast_food_restaurant_database/blob/main/E-R%20Diyagram%C4%B1/E-R%20Diyagram.png)
+![](https://github.com/cgesgin/fast_food_restaurant_database/blob/main/E-R%20Diyagram%C4%B1/E-R%20Diyagram.png)
 
 #### Postgresql Veri tabanı için Faydalı kaynaklar
 
