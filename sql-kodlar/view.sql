@@ -1,5 +1,7 @@
 --View işlemleri
 
+-----------------------------------------------------------------------------------------------
+
 --personellerin ad ,soyad ve maas bilgileri ile birlikte hangi subede calıstıklarını düşük maastan yüksek maas göre ve subelerin hangi adreste bulundukları listeleyen view
 create view vw_personel_sube
 as
@@ -14,8 +16,12 @@ select p.ad,
     inner join adres on adres.adres_id=sube.sube_id 
  order by p.maas ;
 
+-----------------------------------------------------------------------------------------------
+
 --view silme
 --drop view vw_personel_sube;
+
+-----------------------------------------------------------------------------------------------
 
 --Müsterilerin fatura bilgilerini ve hangi personel tarafindan yapıldıgını ve nakit yada kart şeklinde ödeme yapanların 
 --tutarlarına göre sağladıgı kazanç oranını listeleyen view'dir.
@@ -39,4 +45,13 @@ from fatura
 	where fatura.ödeme_türü='nakit' or fatura.ödeme_türü='kart'
 	order by fatura.odenecek_tutar;
 
+-----------------------------------------------------------------------------------------------
+
+--personel tablosunda cinsiyetleri sayan view
+create view vw_cinsiyet
+as 
+SELECT
+       SUM(CASE cinsiyet WHEN 'erkek' THEN 1  ELSE 0   END) "Erkek",
+       SUM(CASE cinsiyet WHEN 'kadın' THEN 1  ELSE 0   END) "Kadın"
+FROM personel;
 
