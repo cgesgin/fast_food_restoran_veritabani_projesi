@@ -48,10 +48,10 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 ---
 
-Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır.
+Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin durumlarının oluşumundan meydana gelecek tablolardır.
 
-| Tablolar      			| İşlevi        |
-| -------------				| ------------- |
+| Tablolar     | İşlevi        |
+| -------------| ------------- |
 |Fatura	|Müşterinin ödeyeceği tutar bilgilerini içerir.
 |Kategori|	Ürünlerin türleri bulundugu bilgileri içerir.
 |Menü	|Menü bilgilerini içerir.
