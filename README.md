@@ -7,7 +7,7 @@
 
 ---
 
-Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
+	Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
 	
 Bir müşteri herhangi bir fast food şubesinde siparis vermek için menüden bir seçim yapar restoran personeli bir siparis kaydı oluşturmak için bir uygulama kullanır. Siparişi izlemek için bir kayıt olusturulur. Form daha sonra yazdırılır ve bir kopyası müşteriye fatura olarak verilir. 
 
