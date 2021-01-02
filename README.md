@@ -7,14 +7,14 @@
 
 ---
 
-	Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
+  Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
 	
-Bir müşteri herhangi bir fast food şubesinde siparis vermek için menüden bir seçim yapar restoran personeli bir siparis kaydı oluşturmak için bir uygulama kullanır. Siparişi izlemek için bir kayıt olusturulur. Form daha sonra yazdırılır ve bir kopyası müşteriye fatura olarak verilir. 
+  Bir müşteri herhangi bir fast food şubesinde siparis vermek için menüden bir seçim yapar restoran personeli bir siparis kaydı oluşturmak için bir uygulama kullanır. Siparişi izlemek için bir kayıt olusturulur. Form daha sonra yazdırılır ve bir kopyası müşteriye fatura olarak verilir. 
 
-Sipariş hazırlanırken verilen sipariş stoğu kontrol edilir ve siparis hazırlanır. Bu bilgiler tekrar personelin kullandığı uygulamaya girilir. Mali personele giderken, diğer idari personel, bir ay içinde ne kadar ürün satıldığını, ne kadar ürün stokta ürün kaldığını vb. gibi etkinlik verilerini oluşturmak için genel faaliyet bilgilerini formdan özetler ve kaydeder. 
+  Sipariş hazırlanırken verilen sipariş stoğu kontrol edilir ve siparis hazırlanır. Bu bilgiler tekrar personelin kullandığı uygulamaya girilir. Mali personele giderken, diğer idari personel, bir ay içinde ne kadar ürün satıldığını, ne kadar ürün stokta ürün kaldığını vb. gibi etkinlik verilerini oluşturmak için genel faaliyet bilgilerini formdan özetler ve kaydeder. 
 	
 
-Amacım, Fast Food Restoranını tek basına bir uygulamadan ziyade birçok uygulamadan desteklenebilecek daha zengin bir kullanım sunmak için ve veri yönetimini daha kolay yapılacak şekilde bir sistem haline getirmektir. Buna ek olarak personelin iş akışına daha iyi desteklemek ve sipariş akışı daha iyi yönetmek için avantajlar sağlaması örneğin stok kontrolü, sipariş kontrolü, personel kontrolü vb. işlerin yapılması.
+  Amacım, Fast Food Restoranını tek basına bir uygulamadan ziyade birçok uygulamadan desteklenebilecek daha zengin bir kullanım sunmak için ve veri yönetimini daha kolay yapılacak şekilde bir sistem haline getirmektir. Buna ek olarak personelin iş akışına daha iyi desteklemek ve sipariş akışı daha iyi yönetmek için avantajlar sağlaması örneğin stok kontrolü, sipariş kontrolü, personel kontrolü vb. işlerin yapılması.
 
 Önceki Modelde Temel Eksiklikler;
 
@@ -48,7 +48,7 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 ---
 
-Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin durumlarının oluşumundan meydana gelecek tablolardır.
+  Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin durumlarının oluşumundan meydana gelecek tablolardır.
 
 | Tablolar     | İşlevi        |
 | -------------| ------------- |
