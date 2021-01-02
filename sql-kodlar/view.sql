@@ -1,1 +1,1 @@
-
+--View iki adet oluşturuldu
