@@ -4,6 +4,7 @@
 
 ### Projeye Genel Bakış
 
+---
 
 Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
 	
@@ -44,9 +45,9 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 #### Veritabanı Yapısı
 
-Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır.
-
 ---
+
+Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır.
 
 | Tablolar      			| İşlevi        |
 | -------------				| ------------- |
@@ -64,6 +65,8 @@ Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Mü�
 
 
 #### E-R Diyagram
+
+---
 
 ![](https://github.com/cgesgin/fast_food_restaurant_database/blob/main/E-R%20Diyagram%C4%B1/E-R%20Diyagram.png)
 
