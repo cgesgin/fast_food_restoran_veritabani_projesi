@@ -55,3 +55,56 @@ SELECT
        SUM(CASE cinsiyet WHEN 'kadın' THEN 1  ELSE 0   END) "Kadın"
 FROM personel;
 
+-----------------------------------------------------------------------------------------------
+
+update personel set unvan_id=1  where unvan_id is null;
+
+
+create view vw_personel_unvan_sube
+	as
+	select 
+		p.ad 	 as personelAd,
+		p.soyad  as personelSoyad,
+		s.sube_ad,
+		case 
+				when p.unvan_id=1
+			then 'Kasiyer' 
+				when p.unvan_id=2
+			then 'Asçı'
+				when p.unvan_id=3
+			then 'Aşcı yardımcısı'
+				when p.unvan_id=4
+			then 'Temizlik elemanı'
+				when p.unvan_id>4
+			then 'Diğer'			
+		End as Pozisyon
+	from personel as p
+		inner join unvan as u on u.unvan_id=p.unvan_id
+	    inner join sube as s on s.sube_id=p.sube_id 
+		order by p.ad ;
+
+-----------------------------------------------------------------------------------------------
+
+create view vw_personel_unvan
+	as
+	select 
+		p.ad 	 as personelAd,
+		p.soyad  as personelSoyad,
+		case 
+				when p.unvan_id=1
+			then 'Kasiyer' 
+				when p.unvan_id=2
+			then 'Asçı'
+				when p.unvan_id=3
+			then 'Aşcı yardımcısı'
+				when p.unvan_id=4
+			then 'Temizlik elemanı'
+				when p.unvan_id>4
+			then 'Diğer'			
+		End as Pozisyon
+	from personel as p
+		inner join unvan as u on u.unvan_id=p.unvan_id
+		order by p.ad ;
+
+-----------------------------------------------------------------------------------------------
+		
