@@ -42,7 +42,7 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 
 
-##### Veritabanı Yapısı
+#### Veritabanı Yapısı
 
 Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır
 
