@@ -2,7 +2,7 @@
 * Proje : Fast food restoranlarının modellenmesi
 * Kullanılan veri tabanı [PostgreSQL Version 13.1	](https://www.postgresql.org/) ' dir
 
-## Projeye Genel Bakış
+### Projeye Genel Bakış
 
 
 Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
@@ -29,20 +29,20 @@ Amacım, Fast Food Restoranını tek basına bir uygulamadan ziyade birçok uygu
 
 Yeni Modelde Elde Edilen Temel Avantajlar;
 
-•	Sistem uygulamadan bağımsız
-•	Veri yönetimi daha kolay
-•	Ürün Takibi kolaylığı
-•	Stok Takibi Kolaylıgı
-•	Sipariş Takibi Kolaylığı
-•	Personel Takibi kolaylığı
-•	Fatura Takibi kolaylağı
-•	Sipariş durum takibi
-•	Menüden kolay sipariş verme
-•	Personelin sipariş alma kolaylığı
+*	Sistem uygulamadan bağımsız
+*	Veri yönetimi daha kolay
+*	Ürün Takibi kolaylığı
+*	Stok Takibi Kolaylıgı
+*	Sipariş Takibi Kolaylığı
+*	Personel Takibi kolaylığı
+*	Fatura Takibi kolaylağı
+*	Sipariş durum takibi
+*	Menüden kolay sipariş verme
+*	Personelin sipariş alma kolaylığı
 
 
 
-Veritabanı Yapısı
+##### Veritabanı Yapısı
 
 Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır
 
