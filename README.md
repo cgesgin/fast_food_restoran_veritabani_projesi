@@ -16,15 +16,15 @@ Amacım, Fast Food Restoranını tek basına bir uygulamadan ziyade birçok uygu
 
 Önceki Modelde Temel Eksiklikler;
 
-•	Tek bir uygulamadan yönetilen sistem
-•	Veri Yönetimi Fatura özetlerinden ve yapılıyor
-•	Ürün Takibi zorluğu
-•	Stok Takibi Zorluğu
-•	Personel Takibi kolaylığı
-•	Sipariş durum belirsizliği
-•	Menü Kontrolü zorluğu
-•	Sipariş Takibi zorluğu
-•	Personelin sipariş alma zorluğu
+*	Tek bir uygulamadan yönetilen sistem
+*	Veri Yönetimi Fatura özetlerinden ve yapılıyor
+*	Ürün Takibi zorluğu
+*	Stok Takibi Zorluğu
+*	Personel Takibi kolaylığı
+*	Sipariş durum belirsizliği
+*	Menü Kontrolü zorluğu
+*	Sipariş Takibi zorluğu
+*	Personelin sipariş alma zorluğu
 
 
 Yeni Modelde Elde Edilen Temel Avantajlar;
