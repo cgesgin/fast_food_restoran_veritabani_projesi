@@ -46,7 +46,7 @@ Yeni Modelde Elde Edilen Temel Avantajlar;
 
 Veritabanı on bir tablodan oluşur. Ana tablolar Fatura, Kategori, Menü , Müşteri, Personel, Sipariş, Ürün, Şube , sipariş_Durum ,Adres ,personel türü tablolarıdır. Diğer Tablolar varlık-ilişkilerinin seviyesinin oluşumundan meydana gelecek tablolardır
 
-#### Postgresql Faydalı kaynaklar
+#### Postgresql Veri tabanı için Faydalı kaynaklar
 
 * https://www.postgresqltutorial.com/
 * https://pgexercises.com/
