@@ -3,7 +3,6 @@
 * Proje : Fast food restoranlarının modellenmesi
 * Kullanılan veri tabanı [PostgreSQL Version 13.1](https://www.postgresql.org/) ' dir
 * E-R Diyagram Çizimi için [Umlet](https://www.umlet.com/) kullanılmıştır.
----
 ### Projeye Genel Bakış
 
 ---
