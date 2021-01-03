@@ -8,7 +8,7 @@ create table Musteri(
 	telefon int unique not null,
 	e_mail varchar(40) unique
 );
-
+-------------------------------------------------------------------------------------------
 create table Adres (
 	adres_id serial primary key not null,
 	il varchar(20) not null,
@@ -17,7 +17,7 @@ create table Adres (
 	sokak varchar(20) not null,
 	bina_no int not null
 );
-
+-------------------------------------------------------------------------------------------
 create table Personel(
 	personel_id serial primary key not null,
 	ad varchar(20) not null,
@@ -28,47 +28,47 @@ create table Personel(
 	maas real ,
 	ise_giris_tarihi date
 );
-
+-------------------------------------------------------------------------------------------
 create table Unvan(
 	unvan_id serial primary key not null,
 	unvan varchar(20) not null
 );
-
+-------------------------------------------------------------------------------------------
 create table Fatura(
 	fatura_id serial primary key not null,
 	islem_tarihi date not null,
 	odenecek_tutar real not null
 );
-
+-------------------------------------------------------------------------------------------
 create table SiparisDurum(
 	siparis_durum_id serial primary key not null,
 	durum varchar(40)
 );
-
+-------------------------------------------------------------------------------------------
 create table Sube(
 	sube_id serial primary key not null,
 	sube_ad varchar(40),
 	telefon int unique
 );
-
+-------------------------------------------------------------------------------------------
 create table ürün(
 	ürün_id serial primary key not null,
 	ürün_ad varchar(40) not null,
 	kalori real not null
 );
-
+-------------------------------------------------------------------------------------------
 create table Kategori(
 	kategori_id serial primary key not null,
 	kategori_ad varchar(40) not null
 );
-
+-------------------------------------------------------------------------------------------
 create table Menü(
 	menü_id serial primary key not null,
 	menü_ad varchar(40) not null,
 	kalori real not null,
 	fiyat real not null
 );
-
+-------------------------------------------------------------------------------------------
 create table siparis(
 	siparis_id serial primary key not null,
 	menü_ad varchar(40) not null,
@@ -76,6 +76,8 @@ create table siparis(
 	siparis_tarihi date not null	
 );
 
+-------------------------------------------------------------------------------------------
+--Alter ile yabancıl anahtarların tanımlanması
 ALTER TABLE fatura ADD ödeme_türü varchar(40) not null;
 
 alter table fatura add personel_id int references personel(personel_id);
@@ -100,40 +102,42 @@ alter table siparis add personel_id int  references personel(personel_id);
 
 alter table sube add adres_id int references adres(adres_id);
 
+-------------------------------------------------------------------------------------------
+
 create table Siparis_Sube(
 	id serial primary key not null,
 	siparis_id int references siparis(siparis_id),
 	sube_id  int references sube(sube_id)
 );
-
+-------------------------------------------------------------------------------------------
 create table Siparis_Menu(
 	id serial primary key not null,
 	menü_id int references menü(menü_id),
 	siparis_id  int references siparis(siparis_id)
 );
-
+-------------------------------------------------------------------------------------------
 create table Sube_menü(
 	id serial primary key not null,
 	menü_id int references menü(menü_id),
 	sube_id  int references sube(sube_id)
 );
-
+-------------------------------------------------------------------------------------------
 create table menü_ürün(
 	id serial primary key not null,
 	menü_id int references menü(menü_id),
 	ürün_id  int references ürün(ürün_id)
 );
-
+-------------------------------------------------------------------------------------------
 create table menü_kategori(
 	id serial primary key not null,
 	menü_id int references menü(menü_id),
 	kategori_id  int references kategori(kategori_id)
 );
-
+-------------------------------------------------------------------------------------------
 create table ürün_kategori(
 	id serial primary key not null,
 	ürün_id int references ürün(ürün_id),
 	kategori_id  int references kategori(kategori_id)
 );
-
+-------------------------------------------------------------------------------------------
 
