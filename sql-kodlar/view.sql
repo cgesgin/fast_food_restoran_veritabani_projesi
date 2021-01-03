@@ -1,7 +1,7 @@
 --View işlemleri
 
 -----------------------------------------------------------------------------------------------
-
+--1.View
 --personellerin ad ,soyad ve maas bilgileri ile birlikte hangi subede calıstıklarını düşük maastan yüksek maas göre ve subelerin hangi adreste bulundukları listeleyen view
 create view vw_personel_sube
 as
@@ -22,7 +22,7 @@ select p.ad,
 --drop view vw_personel_sube;
 
 -----------------------------------------------------------------------------------------------
-
+--2.View
 --Müsterilerin fatura bilgilerini ve hangi personel tarafindan yapıldıgını ve nakit yada kart şeklinde ödeme yapanların 
 --tutarlarına göre sağladıgı kazanç oranını listeleyen view'dir.
 create view vw_fatura_musteri_personel
@@ -46,7 +46,7 @@ from fatura
 	order by fatura.odenecek_tutar;
 
 -----------------------------------------------------------------------------------------------
-
+--3.View
 --personel tablosunda cinsiyetleri sayan view
 create view vw_cinsiyet
 as 
@@ -56,7 +56,7 @@ SELECT
 FROM personel;
 
 -----------------------------------------------------------------------------------------------
-
+--4.View
 update personel set unvan_id=1  where unvan_id is null;
 
 
@@ -84,7 +84,7 @@ create view vw_personel_unvan_sube
 		order by p.ad ;
 
 -----------------------------------------------------------------------------------------------
-
+--5.View
 create view vw_personel_unvan
 	as
 	select 
