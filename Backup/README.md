@@ -1,2 +1,2 @@
 
-* Fast Food Restaurant veri tabanı backup'ı dır.
+* **Fast Food Restaurant veri tabanı backup'ı dır.**
