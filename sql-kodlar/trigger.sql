@@ -16,3 +16,4 @@
 ON personel
    FOR EACH ROW
    EXECUTE PROCEDURE befor_insert_personel();
+--------------------------------------------------------------------------
