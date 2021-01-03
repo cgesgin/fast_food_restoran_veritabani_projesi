@@ -1,5 +1,6 @@
 --Trigger işlemleri
 
+--1.Trigger
  CREATE OR REPLACE FUNCTION befor_insert_personel()
    RETURNS trigger AS
  $$
