@@ -6,7 +6,7 @@
 ### Projeye Genel Bakış
 
 ---
-* Neden Fast food restourant'larında veri tabanına ihtiyaç vardır?
+* **Neden Fast food restourant'larında veri tabanına ihtiyaç vardır?
 
   Fast food restoranları hızlı ve paket yemek hizmeti sunan bir restoran çeşididir.
 	
