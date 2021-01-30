@@ -17,7 +17,7 @@
 
   Amacım, Fast Food Restoranını tek basına bir uygulamadan ziyade birçok uygulamadan desteklenebilecek daha zengin bir kullanım sunmak için ve veri yönetimini daha kolay yapılacak şekilde bir sistem haline getirmektir. Buna ek olarak personelin iş akışına daha iyi desteklemek ve sipariş akışı daha iyi yönetmek için avantajlar sağlaması örneğin stok kontrolü, sipariş kontrolü, personel kontrolü vb. işlerin yapılması.
 
-Önceki Modelde Temel Eksiklikler;
+**Önceki Modelde Temel Eksiklikler;
 
 *	Tek bir uygulamadan yönetilen sistem
 *	Veri Yönetimi Fatura özetlerinden ve yapılıyor
@@ -30,7 +30,7 @@
 *	Personelin sipariş alma zorluğu
 
 
-Yeni Modelde Elde Edilen Temel Avantajlar;
+**Yeni Modelde Elde Edilen Temel Avantajlar;
 
 *	Sistem uygulamadan bağımsız
 *	Veri yönetimi daha kolay
