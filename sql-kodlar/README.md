@@ -1,5 +1,5 @@
 # SQL kodları
-Veri tabanı tanımlama ve özellik tanımlamalarının sql kodlarıdır.
+Veri tabanı tanımlama ve veri tabanı özellik tanımlamalarının sql kodlarıdır.
 ### Veri tabanında bulunan nesneler(son hali)
 
 * 4 adet Cascade
