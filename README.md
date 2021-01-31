@@ -73,13 +73,14 @@
 ![](https://github.com/cgesgin/fast_food_restaurant_database/blob/main/E-R%20Diyagram%C4%B1/E-R%20Diyagram.png)
 
 ---
-### Veri tabanında bulunan nesneler
+### Veri tabanında bulunan nesneler(son hali)
 
 *	4 adet Cascade 
 *	2 adet Fonksiyon
 *	1 adet Prosedür
 *	5 adet View
 *	1 adet Trigger
+*	17 adet Tablo
 
 #### PostgreSQL Veri tabanı için Faydalı kaynaklar
 
