@@ -33,7 +33,7 @@
 ![](https://github.com/cgesgin/fast_food_restaurant_database/blob/main/E-R%20Diyagram%C4%B1/E-R%20Diyagram.png)
 
 ---
-### Veri tabanında bulunan nesneler(son hali)
+### Veri tabanında bulunan nesneler
 
 *	4 adet Cascade 
 *	2 adet Fonksiyon
