@@ -1,6 +1,6 @@
 # SQL kodları
 Veri tabanı tanımlama ve veri tabanı özellik tanımlamalarının sql kodlarıdır.
-### Veri tabanında bulunan nesneler(son hali)
+### Veri tabanında bulunan nesneler
 
 * 4 adet Cascade
 * 2 adet Fonksiyon
