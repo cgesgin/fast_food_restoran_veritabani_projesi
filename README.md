@@ -1,6 +1,6 @@
 # Restoran Veri Tabanı
 
-* Proje : Fast food restoranların veri tabanının modellenmesi
+* Proje : Fast food restoranların veri tabanının modellenmesi.
 * Kullanılan veri tabanı [PostgreSQL Version 13.1](https://www.postgresql.org/) ' dir
 * E-R Diyagram Çizimi için [Umlet](https://www.umlet.com/) kullanılmıştır.
 
