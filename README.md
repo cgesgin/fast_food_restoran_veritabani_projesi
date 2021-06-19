@@ -42,8 +42,4 @@
 *	1 adet Trigger
 *	17 adet Tablo
 
-#### PostgreSQL Veri tabanı için Faydalı kaynaklar
 
-* https://www.postgresqltutorial.com/
-* https://pgexercises.com/
-* https://www.postgresql.org/docs/
